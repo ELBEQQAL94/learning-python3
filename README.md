@@ -13,3 +13,5 @@
 ## Chapter 5: Conditionals and recursion
 
 ## Chapter 6: Fruitful functions
+
+    - currently at  Composition section
