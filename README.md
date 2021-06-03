@@ -14,4 +14,4 @@
 
 ## Chapter 6: Fruitful functions
 
-    - currently at  Composition section
+## Chapter 7: Iteration

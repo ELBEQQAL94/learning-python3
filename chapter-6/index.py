@@ -18,10 +18,43 @@ def compare(a, b):
 #     return result
 
 def distance(x1, y1, x2, y2):
-    dx = x2 - x1
-    dy = y2 - y1
+    dx = calc_diff(x1, x2)
+    dy = calc_diff(y1, y2)
     dSquared = dx**2 + dy**2
     result = math.sqrt(dSquared)
     return result
-    
-print(f"The distance is: {distance(1, 2, 4, 6)}")
+
+def calc_diff(point1, point2):
+    return point2 - point1
+
+def is_between(x, y, z):
+    if y > x and y < z:
+        return True
+    return False
+
+def fact(n):
+    if n == 0:
+        return 1
+    return n * fact(n - 1)
+
+def countdown(n):
+    if n <= 0:
+        return 1
+    else:
+        print(n)
+        countdown(n - 1)
+
+def fib(n):
+    if not isinstance(n, int):
+        print("Enter an iteger")
+        return None
+    elif n < 0:
+        print("Should not return an negative number")
+        return None
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n - 1) + fib(n - 2)
+print(f"{fib(4)}")
