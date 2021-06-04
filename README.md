@@ -15,3 +15,7 @@
 ## Chapter 6: Fruitful functions
 
 ## Chapter 7: Iteration
+
+## Chapter 8: Strings
+
+    - The in operator
