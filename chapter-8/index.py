@@ -12,6 +12,11 @@
 
 # iter_str("Youssef")
 
-fruit = "banana"
+# fruit = "banana"
 
-print(fruit[:])
+# print(fruit[:])
+
+def is_palindrome(str1, str2):
+    return str1 == str2[::-1]
+
+print(f'{is_palindrome("youssef", "deed")}')
